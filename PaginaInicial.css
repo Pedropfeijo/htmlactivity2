@@ -1,8 +1,77 @@
-div {
-  border: 2px solid black;
-}
+
+
 .box-side-by-side {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-link {
+  margin: 100px 200px;
+}
+
+.serviços-link {
+  margin: 50px 100px;
+}
+
+.descricao {
+  margin: 50px 100px;
+}
+
+.image-servicos {
+  margin: 50px 100px;
+}
+
+.servicos-p {
+  margin: 50px 100px;
+}
+
+.depoimentos-image {
+  margin: 50px 100px;
+}
+
+.depoimentos-p {
+  margin: 50px 100px;
+}
+
+.footnote-p {
+  margin: 50px 200px;
+}
+
+#page-header{
+  background-color: rgb(255, 238, 204);
+}
+
+#carrossel{
+  background-color: rgb(255, 221, 204);
+}
+
+#serviços{
+  background-color: rgb(255, 204, 204);
+}
+
+#depoimentos{
+  background-color: rgb(255, 204, 204);
+}
+
+#page-footnote{
+  background-color: rgb(254, 187, 204);
+}
+
+#title {
+  text-align: center;
+}
+
+#subtitle {
+  text-align: center;
+}
+
+#first-image-carousel {
+  text-align: center;
+}
+
+#logo {
+  margin: 20px 100px 20px 20px;
 }
