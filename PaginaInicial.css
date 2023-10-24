@@ -8,10 +8,15 @@
   justify-content: center;
 }
 
+
+
 .header-link {
   margin: 100px 200px;
 }
 
+.table-test td{
+  padding: 0 50px;
+}
 .serviços-link {
   margin: 50px 100px;
 }
@@ -28,6 +33,10 @@
   margin: 50px 100px;
 }
 
+.espaco{
+margin: 5%;
+}
+
 .depoimentos-image {
   margin: 50px 100px;
 }
@@ -40,28 +49,43 @@
   margin: 50px 200px;
 }
 
-#page-header{
+#page-header {
   background-color: rgb(255, 238, 204);
+  margin: 0px 0px;
+  padding: 0px 0px;
+  border-bottom: 3px;
+  border-color: black;
 }
 
-#carrossel{
+#test{
   background-color: rgb(255, 221, 204);
+  margin: 0px;
+  padding: 500px 0px;
 }
 
-#serviços{
+#carrossel {
+  background-color: rgb(255, 221, 204);
+  margin: 0px 0px;
+  padding: 0px 0px;
+  border-top: 3px;
+  border-color: black;
+}
+
+#serviços {
   background-color: rgb(255, 204, 204);
 }
 
-#depoimentos{
+#depoimentos {
   background-color: rgb(255, 204, 204);
 }
 
-#page-footnote{
+#page-footnote {
   background-color: rgb(254, 187, 204);
 }
 
 #title {
   text-align: center;
+  margin: 0px;
 }
 
 #subtitle {
