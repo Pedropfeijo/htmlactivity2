@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="PaginaOrcamento.css" />
+<html>
+  <head>
+    <title>Página Orçamento</title>
+  </head>
+  <body>
+    <section id="page-header">
+      <div class="box-side-by-side">
+        <div>
+          <img id="logo" src="Images\Logo1.webp" width="150" height="50" />
+        </div>
+        <div>
+          <a class="header-link" href="#"> Galeria </a>
+        </div>
+        <div>
+          <a class="header-link" href="#depoimentos"> Depoimentos </a>
+        </div>
+        <div>
+          <a class="header-link" href="#"> Fazer Orçamento </a>
+        </div>
+      </div>
+    </section>
+    <section id="title-description">
+      <div class="stack">
+        <div class="stack-internal">
+          <h2 class="title">GALERIA</h2>
+        </div>
+        <div class="stack-internal">
+          <h4 class="subtitle">
+            Preencha os dados abaixo para solicitar o orçamento de seu agendamento
+          </h4>
+        </div>
+      </div>
+    </section>
+    <section id="formulario">
+      <form action="" class="formulario">
+        <div class ="box-side-by-side">
+          <div class="internal">
+            <label for="nome">Nome:</label><br />
+            <input type="text" id="nome" name="nome" /><br />
+            <label for="email">E-mail:</label><br />
+            <input type="text" id="email" name="email" /><br />
+            <label for="telefone">Telefone:</label><br />
+            <input type="text" id="telefone" name="telefone" /><br />
+            <label for="endereco">Endereço:</label><br />
+            <input type="text" id="endereco" name="endereco" /><br />
+            <label for="data">Data:</label><br />
+            <input type="text" id="data" name="data" /><br />
+            <label for="obs">Observações:</label><br />
+            <input type="text" id="obs" name="obs" /><br />
+            <label for="imp">Idade Média dos Participantes:</label><br />
+            <input type="text" id="imp" name="imp" /><br />
+          </div>
+          <div class="internal">
+            <h3>Selecione o tipo do evento:</h3>
+            <input type="radio" id="teatro" name="tipo_evento" value="TEATRO" />
+            <label for="teatro">Teatro</label><br />
+            <input
+              type="radio"
+              id="brinquedo"
+              name="tipo_evento"
+              value="BRINQUEDO"
+            />
+            <label for="brinquedo">Brinquedo</label><br />
+            <input
+              type="radio"
+              id="apresentacao_educativa"
+              name="tipo_evento"
+              value="APRESENTACAO_EDUCATIVA"
+            />
+            <label for="apresentacao_educativa">Apresentação Educativa</label
+            ><br />
+            <button type="button" class="button-test"> SOLICITAR ORÇAMENTO </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section id="page-footnote">
+      <div class="box-side-by-side">
+        <div>
+          <p class="footnote-p">telefone</p>
+        </div>
+        <div>
+          <p class="footnote-p">e-mail</p>
+        </div>
+        <div>
+          <p class="footnote-p">@insta</p>
+        </div>
+        <div>
+          <p class="footnote-p">@twitter</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

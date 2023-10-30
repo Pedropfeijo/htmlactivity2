@@ -1,20 +1,22 @@
-
-
 .box-side-by-side {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
-
-
 
 .header-link {
-  margin: 100px 200px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
-.table-test td{
+.footnote-p {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.table-test td {
   padding: 0 50px;
 }
 .serviços-link {
@@ -33,42 +35,30 @@
   margin: 50px 100px;
 }
 
-.espaco{
-margin: 5%;
-}
-
 .depoimentos-image {
   margin: 50px 100px;
+  border-radius: 50%;
 }
 
 .depoimentos-p {
   margin: 50px 100px;
 }
 
-.footnote-p {
-  margin: 50px 200px;
+.prev {
+  margin-right: 50px;
+}
+
+.next {
+  margin-left: 50px;
 }
 
 #page-header {
   background-color: rgb(255, 238, 204);
-  margin: 0px 0px;
-  padding: 0px 0px;
-  border-bottom: 3px;
-  border-color: black;
-}
-
-#test{
-  background-color: rgb(255, 221, 204);
-  margin: 0px;
-  padding: 500px 0px;
+  height: 75px;
 }
 
 #carrossel {
   background-color: rgb(255, 221, 204);
-  margin: 0px 0px;
-  padding: 0px 0px;
-  border-top: 3px;
-  border-color: black;
 }
 
 #serviços {
@@ -81,6 +71,7 @@ margin: 5%;
 
 #page-footnote {
   background-color: rgb(254, 187, 204);
+  height: 75px;
 }
 
 #title {
@@ -96,6 +87,3 @@ margin: 5%;
   text-align: center;
 }
 
-#logo {
-  margin: 20px 100px 20px 20px;
-}

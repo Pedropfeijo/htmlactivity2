@@ -1,0 +1,73 @@
+.box-side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .header-link {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .footnote-p {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .image-video{
+    margin: 100px;
+  }
+
+  .stack{
+    align-items: center;
+    justify-content: center;
+    text-align: center
+  }
+
+  .stack-internal{
+    margin: 0px;
+  }
+
+  .botao{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 204, 204);
+  }
+
+  .title{
+    margin: 0px;
+  }
+
+  .subtitle{
+    margin: 0px;
+  }
+
+  .button-test{
+    margin-bottom: 50px;
+  }
+
+  #page-header {
+    background-color: rgb(255, 238, 204);
+    height: 75px;
+  }
+
+  #title-description{
+    background-color: rgb(255, 221, 204);
+  }
+
+  #Galeria-Fotos{
+    background-color: rgb(255, 204, 204);
+  }
+
+  #Galeria-Videos{
+    background-color: rgb(255, 204, 204);
+  }
+
+  #page-footnote {
+    background-color: rgb(254, 187, 204);
+    height: 75px;
+  }

@@ -1,0 +1,71 @@
+.box-side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .header-link {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .footnote-p {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .stack{
+    align-items: center;
+    justify-content: center;
+    text-align: center
+  }
+  
+  .formulario{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .internal{
+    width: 33%;
+  }
+
+  .button-test{
+    margin-top: 50px;
+  }
+
+  .title{
+    margin: 0px;
+  }
+
+  .subtitle{
+    margin: 0px;
+  }
+
+  #page-header {
+    background-color: rgb(255, 238, 204);
+    height: 75px;
+  }
+
+  #title-description{
+    background-color: rgb(255, 221, 204);
+  }
+
+  #formulario{
+    background-color: rgb(255, 204, 204);
+  }
+
+  #page-footnote {
+    background-color: rgb(254, 187, 204);
+    height: 75px;
+  }
+
+  input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
